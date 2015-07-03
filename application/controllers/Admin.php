@@ -78,7 +78,7 @@ class Admin extends CI_Controller {
     }
 
     // Listado de partidos
-    public function matches( $id = 0 ){
+    public function matches(){
 
 
     }
