@@ -64,7 +64,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db578578627.db.1and1.com',
+	//'hostname' => 'db578578627.db.1and1.com',
+	'hostname' => '127.0.0.1',
 	'username' => 'dbo578578627',
 	'password' => 'TercerApp0',
 	'database' => 'db578578627',
