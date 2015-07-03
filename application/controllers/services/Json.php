@@ -5,7 +5,7 @@ class Json extends CI_Controller {
     public function __construct(){
 
     }
-    public function get_data(){
+    public function get(){
 
         $output_data = (object)array(
             "dash_total_matches" =>  4,
@@ -60,7 +60,10 @@ class Json extends CI_Controller {
             )
         );
         $json_string = json_encode( $output_data );
-        // json string
+
+
+        // Como ya es tarde jalo el texto plano
+        $json_string = file_get_contents(APPPATH.'/files/fake_json.json');
 
         if( isset( $_GET['callback'] ) ){
             header('Content-Type: text/javascript; charset=utf8');

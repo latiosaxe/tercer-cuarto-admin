@@ -1,52 +1,75 @@
--- phpMyAdmin SQL Dump
--- version 4.1.14.8
--- http://www.phpmyadmin.net
---
--- Servidor: db578578627.db.1and1.com
--- Tiempo de generación: 02-07-2015 a las 21:43:39
--- Versión del servidor: 5.1.73-log
--- Versión de PHP: 5.4.41-0+deb7u1
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+# ************************************************************
+# Sequel Pro SQL dump
+# Version 4096
+#
+# http://www.sequelpro.com/
+# http://code.google.com/p/sequel-pro/
+#
+# Host: 127.0.0.1 (MySQL 5.6.22)
+# Database: db578578627
+# Generation Time: 2015-07-03 06:56:52 +0000
+# ************************************************************
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
---
--- Base de datos: `db578578627`
---
 
--- --------------------------------------------------------
+# Dump of table ci_sessions
+# ------------------------------------------------------------
 
---
--- Estructura de tabla para la tabla `matches`
---
+DROP TABLE IF EXISTS `ci_sessions`;
 
-CREATE TABLE IF NOT EXISTS `matches` (
+CREATE TABLE `ci_sessions` (
+  `id` varchar(255) NOT NULL DEFAULT '',
+  `ip_address` varchar(45) NOT NULL DEFAULT '',
+  `timestamp` int(10) unsigned NOT NULL DEFAULT '0',
+  `data` blob NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `ci_sessions_timestamp` (`timestamp`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Tabla para el guardado de sesiones, no es necesario guardar el contenido de esta.';
+
+
+
+# Dump of table matches
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `matches`;
+
+CREATE TABLE `matches` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
-  `submit` date NOT NULL,
-  `team_1` varchar(255) COLLATE latin1_spanish_ci NOT NULL,
-  `team_2` varchar(255) COLLATE latin1_spanish_ci NOT NULL,
-  `place` varchar(255) COLLATE latin1_spanish_ci NOT NULL,
-  `time` varchar(255) COLLATE latin1_spanish_ci NOT NULL,
+  `submit` datetime NOT NULL,
+  `team_1` varchar(255) NOT NULL DEFAULT '',
+  `team_2` varchar(255) NOT NULL DEFAULT '',
+  `place` varchar(255) NOT NULL DEFAULT '',
+  `time` varchar(255) NOT NULL DEFAULT '',
   `done` int(1) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `id` (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci AUTO_INCREMENT=13 ;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
---
--- Volcado de datos para la tabla `matches`
---
+LOCK TABLES `matches` WRITE;
+/*!40000 ALTER TABLE `matches` DISABLE KEYS */;
 
-INSERT INTO `matches` (`id`, `submit`, `team_1`, `team_2`, `place`, `time`, `done`) VALUES
-(10, '2015-07-01', '7', '6', 'Tom Benson, Ohio', '2015-07-09 12:00', 1),
-(11, '2015-07-01', '5', '8', 'Tom Benson, Ohio', '2015-07-09 15:30', 0),
-(12, '2015-07-01', '1', '3', 'Tom Benson, Ohio', '2015-07-09 19:00', 0);
+INSERT INTO `matches` (`id`, `submit`, `team_1`, `team_2`, `place`, `time`, `done`)
+VALUES
+  (10,'2015-07-01 00:00:00','5','6','Tom Benson, Ohio','2015-07-09 12:00',0),
+  (11,'2015-07-01 00:00:00','5','8','Tom Benson, Ohio','2015-07-09 15:30',0),
+  (12,'2015-07-01 00:00:00','1','3','Tom Benson, Ohio','2015-07-09 19:00',0);
 
+/*!40000 ALTER TABLE `matches` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

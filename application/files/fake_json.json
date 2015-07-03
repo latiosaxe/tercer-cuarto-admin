@@ -1,0 +1,1142 @@
+{
+    "dash_total_matches": 4,
+    "live": {
+        "status": false,
+        "text": "TercerCuarto por Terra",
+        "url": "http://mixlr.com/tercer-cuarto/"
+    },
+    "fixed": {
+
+    },
+    "brand":[
+        {
+            "type":"banner",
+            "img": "img/brand/banner_performance_zone",
+            "link": "http://google.com"
+        }
+    ],
+    "dash": [
+        {
+            "type": "picture",
+            "image": "img/cms/coach.jpg",
+            "copy": "El H.C. Pedro Morales de AuténticosTigresUANL se unirá al Staff de Coaches de la Selección MÉXICO U-19.",
+            "link": ""
+        },
+        {
+            "type": "gallery",
+            "images": [{
+                "img": "img/cms/gal/01.jpg"
+            },{
+                "img": "img/cms/gal/02.jpg"
+            },{
+                "img": "img/cms/gal/03.jpg"
+            }],
+            "copy": "Ya estamos listos para el Mundial"
+        }
+    ],
+    "leagues": [
+        {
+            "id": 0,
+            "name": "Mundial 2015",
+            "preview": "img/ligas/mundial-2015-2.jpg",
+            "color": "#33cd5f",
+            "info": "<div class='league_info_aux'><img class='centered hidden' src='img/ligas/mundial-senior.png'><div class='league_info_aux_text'><h5>Campeonato Mundial Senior IFAF 2015</h5><p>El Campeonato Mundial Senior IFAF (International Federation of American Football) por sus siglas en inglés, se realizará del 9 al 18 de julio en el Estadio del Salón de la Fama, Tom Benson  en  Canton, Ohio. 4 días de competencia con 3 juegos por día.</p><p>Los kickoffs serán al mediodía, a las 3:30 P.M. (ESTE) y 7:00 P.M. (ESTE). El 9, 12, 15 y 18 de julio, este último para definir a los ganadores de medallas de Oro, Plata y Bronce.<br/>El dos veces campeón defensor, el equipo nacional de los Estados Unidos de América, es líder en el ranking  mundial y del grupo fuerte, seguido por Japón (3) y México (4). Canadá que es (2) en el ranking, anuncio la cancelación de su participación durante el mes de mayo. Los equipos que enfrentarían a Canadá en el calendario, tendrán bye.</p><p>El grupo débil se conforma por Francia (5), Australia (6), Corea del Sur (7) y Brasil (8).</p><p>Los boletos están disponibles en <a href='http://www.ifafworldchampionship.org/'>www.IFAFWorldChampionship.org</a></p><p>El costo por día es de 10 USD Adulto y 5 USD (Estudiantes, Adultos mayores y Militares) (Incluye el acceso a los tres juegos del día).</p><p>El costo de todo el evento es de 35 USD.</p><p>Todos los asientos son generales.</p></div></div>",
+            "sections": [{
+                "icon": "ion-ios-paper-outline",
+                "name": "Info"
+            },{
+                "icon": "ion-ios-keypad-outline",
+                "name": "Grupos"
+            },{
+                "icon": "ion-ios-americanfootball-outline",
+                "name": "Partidos"
+            }],
+            "groups": [{
+                "name": "Grupo A",
+                "id": 0,
+                "elements": [{
+                    "name": "USA",
+                    "place": "1",
+                    "flag": "img/flags/mundial-2015/usa.png",
+                    "bg": "img/ligas/usa_bg.jpg",
+                    "id": 0,
+                    "roster": [
+                        {
+                            "numero":"1",
+                            "nombre":"Bryan Douglas",
+                            "posicion":"DB",
+                            "estatura":"5-9",
+                            "peso":175,
+                            "colegio":"Boise State"
+                        },
+                        {
+                            "numero":"3",
+                            "nombre":"Dylan Favre",
+                            "posicion":"QB",
+                            "estatura":"5-10",
+                            "peso":195,
+                            "colegio":"Tennessee-Martin"
+                        },
+                        {
+                            "numero":"4",
+                            "nombre":"Talir Satterfield-Rowe",
+                            "posicion":"RB",
+                            "estatura":"5-10",
+                            "peso":200,
+                            "colegio":"West Virginia State"
+                        },
+                        {
+                            "numero":"5",
+                            "nombre":"Drew Banks",
+                            "posicion":"WR",
+                            "estatura":"5-9",
+                            "peso":165,
+                            "colegio":"Middle Tennessee State"
+                        },
+                        {
+                            "numero":"6",
+                            "nombre":"Mike Edwards",
+                            "posicion":"DB",
+                            "estatura":"5-9",
+                            "peso":190,
+                            "colegio":"Hawaii"
+                        },
+                        {
+                            "numero":"7",
+                            "nombre":"David Guthrie",
+                            "posicion":"LB",
+                            "estatura":"5-10",
+                            "peso":205,
+                            "colegio":"New Mexico"
+                        },
+                        {
+                            "numero":"8",
+                            "nombre":"Calvin Burnett Jr.",
+                            "posicion":"DB",
+                            "estatura":"5-10",
+                            "peso":180,
+                            "colegio":"Indiana State"
+                        },
+                        {
+                            "numero":"11",
+                            "nombre":"Kevin Burke",
+                            "posicion":"QB",
+                            "estatura":"5-10",
+                            "peso":185,
+                            "colegio":"Mount Union"
+                        },
+                        {
+                            "numero":"13",
+                            "nombre":"Trent Steelman",
+                            "posicion":"WR",
+                            "estatura":"6-0",
+                            "peso":205,
+                            "colegio":"Army"
+                        },
+                        {
+                            "numero":"18",
+                            "nombre":"Andy Erickson",
+                            "posicion":"WR",
+                            "estatura":"5-10",
+                            "peso":175,
+                            "colegio":"Texas State"
+                        },
+                        {
+                            "numero":"20",
+                            "nombre":"Robert Virgil",
+                            "posicion":"DB",
+                            "estatura":"6-0",
+                            "peso":205,
+                            "colegio":"Sioux Falls"
+                        },
+                        {
+                            "numero":"22",
+                            "nombre":"Curtis Slater",
+                            "posicion":"DB",
+                            "estatura":"5-8",
+                            "peso":185,
+                            "colegio":"West Texas A&M"
+                        },
+                        {
+                            "numero":"25",
+                            "nombre":"Larry Dixon",
+                            "posicion":"RB",
+                            "estatura":"5-11",
+                            "peso":239,
+                            "colegio":"Army"
+                        },
+                        {
+                            "numero":"27",
+                            "nombre":"Nick Griffin",
+                            "posicion":"RB",
+                            "estatura":"5-11",
+                            "peso":233,
+                            "colegio":"Mississippi State"
+                        },
+                        {
+                            "numero":"30",
+                            "nombre":"Cliff Stokes",
+                            "posicion":"DB",
+                            "estatura":"6-2",
+                            "peso":185,
+                            "colegio":"Iowa State"
+                        },
+                        {
+                            "numero":"32",
+                            "nombre":"Dan Zeidman",
+                            "posicion":"P-PK",
+                            "estatura":"6-0",
+                            "peso":205,
+                            "colegio":"Idaho State"
+                        },
+                        {
+                            "numero":"34",
+                            "nombre":"Alex Gross",
+                            "posicion":"LB",
+                            "estatura":"5-11",
+                            "peso":220,
+                            "colegio":"Columbia"
+                        },
+                        {
+                            "numero":"35",
+                            "nombre":"Scott Thompson",
+                            "posicion":"LB",
+                            "estatura":"5-11",
+                            "peso":244,
+                            "colegio":"North Carolina State"
+                        },
+                        {
+                            "numero":"36",
+                            "nombre":"Jack Sherlock",
+                            "posicion":"DL",
+                            "estatura":"6-4",
+                            "peso":250,
+                            "colegio":"South Dakota State"
+                        },
+                        {
+                            "numero":"40",
+                            "nombre":"Derrick Webb",
+                            "posicion":"LB",
+                            "estatura":"6-0",
+                            "peso":225,
+                            "colegio":"Colorado"
+                        },
+                        {
+                            "numero":"41",
+                            "nombre":"T.L. Edwards",
+                            "posicion":"DB",
+                            "estatura":"5-11",
+                            "peso":184,
+                            "colegio":"Middle Tennessee State"
+                        },
+                        {
+                            "numero":"42",
+                            "nombre":"Lucky Dozier",
+                            "posicion":"DB",
+                            "estatura":"5-10",
+                            "peso":185,
+                            "colegio":"Northern Arizona"
+                        },
+                        {
+                            "numero":"44",
+                            "nombre":"B.J. Beatty",
+                            "posicion":"LB",
+                            "estatura":"6-2",
+                            "peso":235,
+                            "colegio":"Colorado"
+                        },
+                        {
+                            "numero":"45",
+                            "nombre":"Chad Young",
+                            "posicion":"RB",
+                            "estatura":"5-10",
+                            "peso":255,
+                            "colegio":"San Diego State"
+                        },
+                        {
+                            "numero":"46",
+                            "nombre":"Talib Wise",
+                            "posicion":"LB",
+                            "estatura":"6-1",
+                            "peso":205,
+                            "colegio":"Nevada"
+                        },
+                        {
+                            "numero":"50",
+                            "nombre":"Steven Kurfehs",
+                            "posicion":"LB",
+                            "estatura":"6-3",
+                            "peso":233,
+                            "colegio":"Texas-San Antonio"
+                        },
+                        {
+                            "numero":"55",
+                            "nombre":"Chris Alvarez",
+                            "posicion":"DL",
+                            "estatura":"6-2",
+                            "peso":240,
+                            "colegio":"Rowan"
+                        },
+                        {
+                            "numero":"58",
+                            "nombre":"Matt Oh",
+                            "posicion":"LB",
+                            "estatura":"6-2",
+                            "peso":230,
+                            "colegio":"Dartmouth"
+                        },
+                        {
+                            "numero":"61",
+                            "nombre":"Alex Land",
+                            "posicion":"OL",
+                            "estatura":"6-3",
+                            "peso":298,
+                            "colegio":"Weber State"
+                        },
+                        {
+                            "numero":"67",
+                            "nombre":"Mike Criste",
+                            "posicion":"OL",
+                            "estatura":"6-5",
+                            "peso":316,
+                            "colegio":"Washington"
+                        },
+                        {
+                            "numero":"70",
+                            "nombre":"Randall Harris",
+                            "posicion":"OL",
+                            "estatura":"6-3",
+                            "peso":295,
+                            "colegio":"Towson"
+                        },
+                        {
+                            "numero":"71",
+                            "nombre":"Jeremy Galten",
+                            "posicion":"OL",
+                            "estatura":"6-5",
+                            "peso":295,
+                            "colegio":"Southern Cal"
+                        },
+                        {
+                            "numero":"73",
+                            "nombre":"Zack Williams",
+                            "posicion":"OL",
+                            "estatura":"6-4",
+                            "peso":300,
+                            "colegio":"Washington State"
+                        },
+                        {
+                            "numero":"74",
+                            "nombre":"Manrey Saint-Amour",
+                            "posicion":"OL",
+                            "estatura":"6-2",
+                            "peso":285,
+                            "colegio":"Georgia Southern"
+                        },
+                        {
+                            "numero":"76",
+                            "nombre":"Charlie Tuttle",
+                            "posicion":"OL",
+                            "estatura":"6-2",
+                            "peso":300,
+                            "colegio":"Texas State"
+                        },
+                        {
+                            "numero":"77",
+                            "nombre":"Bryan Wick",
+                            "posicion":"DL",
+                            "estatura":"6-4",
+                            "peso":280,
+                            "colegio":"Bemidji State"
+                        },
+                        {
+                            "numero":"79",
+                            "nombre":"James Atoe",
+                            "posicion":"OL",
+                            "estatura":"6-6",
+                            "peso":375,
+                            "colegio":"Washington"
+                        },
+                        {
+                            "numero":"81",
+                            "nombre":"Kevin Cummings",
+                            "posicion":"WR",
+                            "estatura":"6-1",
+                            "peso":184,
+                            "colegio":"Oregon State"
+                        },
+                        {
+                            "numero":"83",
+                            "nombre":"Quillan Mathis",
+                            "posicion":"WR",
+                            "estatura":"6-1",
+                            "peso":205,
+                            "colegio":"Northwood"
+                        },
+                        {
+                            "numero":"84",
+                            "nombre":"Ernst Brun",
+                            "posicion":"TE",
+                            "estatura":"6-4",
+                            "peso":250,
+                            "colegio":"Iowa State"
+                        },
+                        {
+                            "numero":"86",
+                            "nombre":"Carrington Hanna",
+                            "posicion":"TE",
+                            "estatura":"6-2",
+                            "peso":218,
+                            "colegio":"Sioux Falls"
+                        },
+                        {
+                            "numero":"87",
+                            "nombre":"Brad Smithey",
+                            "posicion":"WR",
+                            "estatura":"5-10",
+                            "peso":185,
+                            "colegio":"SW Oklahoma State"
+                        },
+                        {
+                            "numero":"88",
+                            "nombre":"Luc Meacham",
+                            "posicion":"WR",
+                            "estatura":"6-1",
+                            "peso":200,
+                            "colegio":"Mount Union"
+                        },
+                        {
+                            "numero":"91",
+                            "nombre":"Willie Mobley",
+                            "posicion":"DL",
+                            "estatura":"6-2",
+                            "peso":280,
+                            "colegio":"New Mexico State"
+                        },
+                        {
+                            "numero":"92",
+                            "nombre":"Alec May",
+                            "posicion":"LB",
+                            "estatura":"6-3",
+                            "peso":245,
+                            "colegio":"Georgetown"
+                        },
+                        {
+                            "nombre":"Dan Hawkins",
+                            "posicion":"Head coach",
+                            "procedencia":"Previamente Head Coach en Boise State y Colorado.",
+                            "nacimiento":"Boise, Idaho",
+                            "peso":null,
+                            "colegio":""
+                        },
+                        {
+                            "nombre":"Paul Wulff",
+                            "posicion":"Coordiandor Ofensivo/ Línea Ofensiva",
+                            "procedencia":"Previemante Coach Asistente en San Francisco 49ers ",
+                            "nacimiento":"Tampa, Fla."
+                        },
+                        {
+                            "nombre":"Robert Tucker",
+                            "posicion":"Coordinador Defensivo",
+                            "procedencia":"West Hills Community College | head coach",
+                            "nacimiento":"Coalinga, Calif."
+                        },
+                        {
+                            "nombre":"Cody Hawkins",
+                            "posicion":"Quarterbacks",
+                            "procedencia":"Ohio State University Asistente Graduado",
+                            "nacimiento":"Chicago, Ill."
+                        },
+                        {
+                            "nombre":"Darian Hagan",
+                            "posicion":"Running backs",
+                            "procedencia":"University of Colorado Director de Desarrrolo de jugadores",
+                            "nacimiento":"Thornton, Colo."
+                        },
+                        {
+                            "nombre":"Dan Morrison",
+                            "posicion":"Receptores",
+                            "procedencia":"Previamente Head Coach asocido en Southern Methodist University ",
+                            "nacimiento":"Dallas, Texas"
+                        },
+                        {
+                            "nombre":"Jerry Brady",
+                            "posicion":"Línea Defensiva",
+                            "procedencia":"West Hills Community College. Coach línea defensiva",
+                            "nacimiento":"Ione, Calif."
+                        },
+                        {
+                            "nombre":"Isaiah Jackson",
+                            "posicion":"Linebackers",
+                            "procedencia":"West Virginia State University defensive line coach",
+                            "nacimiento":"Dunbar, W.Va."
+                        },
+                        {
+                            "nombre":"Matt White",
+                            "posicion":"Defensive backs",
+                            "procedencia":"West Hills Community College. Coach Linebackers",
+                            "nacimiento":"Coalinga, Calif."
+                        }
+                    ]
+                },{
+                    "name": "JAPÓN",
+                    "place": "2",
+                    "flag": "img/flags/mundial-2015/japon.png",
+                    "bg": "img/ligas/japon_bg.png",
+                    "id": 1
+                },{
+                    "name": "MÉXICO",
+                    "place": "3",
+                    "flag": "img/flags/mundial-2015/mexico.png",
+                    "bg": "img/ligas/mexico_bg.png",
+                    "id": 2,
+                    "roster": [
+                        {
+                            "numero":"1",
+                            "nombre":"López Chávez Mauricio",
+                            "posicion":"INTERNO",
+                            "edad":34,
+                            "peso":140,
+                            "estatura":1.91,
+                            "equipo":"Borregos ITESM CEM/OLMECAS"
+                        },
+                        {
+                            "numero":"2",
+                            "nombre":"Aceves Morales David Antonio",
+                            "posicion":"LB",
+                            "edad":24,
+                            "peso":103,
+                            "estatura":1.84,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"3",
+                            "nombre":"Lozano Arellano Fernando",
+                            "posicion":"INTERNO",
+                            "edad":24,
+                            "peso":105,
+                            "estatura":1.83,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"4",
+                            "nombre":"Valdés González Luciano",
+                            "posicion":"FS",
+                            "edad":26,
+                            "peso":90,
+                            "estatura":1.85,
+                            "equipo":"Aztecas UDLAP"
+                        },
+                        {
+                            "numero":"5",
+                            "nombre":"Valdez Calvillo Jorge Enrique",
+                            "posicion":"LB",
+                            "edad":32,
+                            "peso":98,
+                            "estatura":1.82,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"6",
+                            "nombre":"Cervantes Chávez Ricardo",
+                            "posicion":"WR",
+                            "edad":21,
+                            "peso":85,
+                            "estatura":1.84,
+                            "equipo":"Águilas UACH"
+                        },
+                        {
+                            "numero":"8",
+                            "nombre":"Sánchez Martinez Julio Cesar",
+                            "posicion":"FS",
+                            "edad":22,
+                            "peso":94,
+                            "estatura":1.87,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"9",
+                            "nombre":"Castañeda Eduardo",
+                            "posicion":"LB",
+                            "edad":30,
+                            "peso":115,
+                            "estatura":1.93,
+                            "equipo":"Borregos ITESM MTY"
+                        },
+                        {
+                            "numero":"10",
+                            "nombre":"Oliva Flores Diego",
+                            "posicion":"LB",
+                            "edad":21,
+                            "peso":100,
+                            "estatura":1.85,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"11",
+                            "nombre":"Holgin Soto Joseph",
+                            "posicion":"WR",
+                            "edad":27,
+                            "peso":80,
+                            "estatura":1.73,
+                            "equipo":"Águilas UACH"
+                        },
+                        {
+                            "numero":"12",
+                            "nombre":"Vega Arroyo Isaías Roberto",
+                            "posicion":"QB",
+                            "edad":24,
+                            "peso":110,
+                            "estatura":1.92,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"13",
+                            "nombre":"Moreno Garzón Luis Alonso",
+                            "posicion":"CB",
+                            "edad":26,
+                            "peso":82,
+                            "estatura":1.75,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"18",
+                            "nombre":"Mateos San Romón Raúl",
+                            "posicion":"QB",
+                            "edad":28,
+                            "peso":90,
+                            "estatura":1.87,
+                            "equipo":"Águilas Blancas IPN / Tigres SSP"
+                        },
+                        {
+                            "numero":"19",
+                            "nombre":"Maltos Díaz José Carlos",
+                            "posicion":"K",
+                            "edad":23,
+                            "peso":87,
+                            "estatura":1.78,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"20",
+                            "nombre":"Arzate Hobart Jerónimo Fernando",
+                            "posicion":"CB",
+                            "edad":20,
+                            "peso":75,
+                            "estatura":1.79,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"21",
+                            "nombre":"García Ramirez Javier Francisco",
+                            "posicion":"CB",
+                            "edad":23,
+                            "peso":88,
+                            "estatura":1.83,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"23",
+                            "nombre":"Barrera Sánchez Jonathan",
+                            "posicion":"RB",
+                            "edad":29,
+                            "peso":82,
+                            "estatura":1.75,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"25",
+                            "nombre":"Saranedialkov Avila Vladislav",
+                            "posicion":"FS",
+                            "edad":21,
+                            "peso":82,
+                            "estatura":1.79,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"27",
+                            "nombre":"Alamilla Gatica Irving",
+                            "posicion":"RB",
+                            "edad":23,
+                            "peso":90,
+                            "estatura":1.75,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"28",
+                            "nombre":"Magallanes Alanis Alexis Arturo",
+                            "posicion":"RB",
+                            "edad":27,
+                            "peso":100,
+                            "estatura":1.83,
+                            "equipo":"Borregos ITESM MTY"
+                        },
+                        {
+                            "numero":"29",
+                            "nombre":"Zarate Heras Ivan Jaime",
+                            "posicion":"SS",
+                            "edad":28,
+                            "peso":92,
+                            "estatura":1.86,
+                            "equipo":"Aztecas UDLAP"
+                        },
+                        {
+                            "numero":"30",
+                            "nombre":"Pareyon Valero Roberto Pablo",
+                            "posicion":"LB",
+                            "edad":21,
+                            "peso":92,
+                            "estatura":1.81,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"32",
+                            "nombre":"Rosado Alvarez Allan Fernando",
+                            "posicion":"RB",
+                            "edad":23,
+                            "peso":78,
+                            "estatura":1.72,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"33",
+                            "nombre":"Fernandez Guerrero Emilio",
+                            "posicion":"CB",
+                            "edad":22,
+                            "peso":84,
+                            "estatura":1.77,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"44",
+                            "nombre":"Castillo Najera Rubi Juan Carlos",
+                            "posicion":"HB",
+                            "edad":28,
+                            "peso":106,
+                            "estatura":1.85,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"51",
+                            "nombre":"González Sánchez Maximo Guillermo",
+                            "posicion":"INTERNO",
+                            "edad":21,
+                            "peso":108,
+                            "estatura":1.91,
+                            "equipo":"Águilas UACH"
+                        },
+                        {
+                            "numero":"53",
+                            "nombre":"Rodarte Pérez Luis Enrique",
+                            "posicion":"OL",
+                            "edad":23,
+                            "peso":118,
+                            "estatura":1.94,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"55",
+                            "nombre":"Robles Ramos Emmanuel",
+                            "posicion":"LB",
+                            "edad":21,
+                            "peso":98,
+                            "estatura":1.85,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"56",
+                            "nombre":"Padilla Pontvianne Manuel",
+                            "posicion":"LB",
+                            "edad":30,
+                            "peso":115,
+                            "estatura":1.93,
+                            "equipo":"Borregos ITESM MTY"
+                        },
+                        {
+                            "numero":"58",
+                            "nombre":"Martinez Villegas Marco Antonio",
+                            "posicion":"DL",
+                            "edad":32,
+                            "peso":117,
+                            "estatura":1.86,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"59",
+                            "nombre":"Brassea Valenzuela Rene",
+                            "posicion":"OL",
+                            "edad":25,
+                            "peso":127,
+                            "estatura":1.93,
+                            "equipo":"Aztecas UDLAP"
+                        },
+                        {
+                            "numero":"61",
+                            "nombre":"Rodriguez Vallejo Mario",
+                            "posicion":"OL",
+                            "edad":25,
+                            "peso":150,
+                            "estatura":1.91,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"65",
+                            "nombre":"Pérez Mexia Julio Enrique",
+                            "posicion":"OL",
+                            "edad":22,
+                            "peso":130,
+                            "estatura":1.93,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"66",
+                            "nombre":"Romero Escobar Mauricio",
+                            "posicion":"OL",
+                            "edad":22,
+                            "peso":140,
+                            "estatura":1.87,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"70",
+                            "nombre":"Arenas Estrada Emanuel",
+                            "posicion":"OL",
+                            "edad":29,
+                            "peso":140,
+                            "estatura":1.93,
+                            "equipo":"Borregos ITESM MTY"
+                        },
+                        {
+                            "numero":"71",
+                            "nombre":"Yaninni Montiel Carlo",
+                            "posicion":"OL",
+                            "edad":20,
+                            "peso":140,
+                            "estatura":1.92,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"74",
+                            "nombre":"Pruneda Zapata Ramiro",
+                            "posicion":"OL",
+                            "edad":31,
+                            "peso":138,
+                            "estatura":2.02,
+                            "equipo":"Borregos ITESM MTY"
+                        },
+                        {
+                            "numero":"77",
+                            "nombre":"Velazquez Padilla Everardo",
+                            "posicion":"INTERNO",
+                            "edad":31,
+                            "peso":156,
+                            "estatura":1.98,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"81",
+                            "nombre":"Roldan Morales Daniel",
+                            "posicion":"TE",
+                            "edad":30,
+                            "peso":110,
+                            "estatura":1.94,
+                            "equipo":"Borregos ITESM MTY"
+                        },
+                        {
+                            "numero":"82",
+                            "nombre":"Viamontes Cotera Diego Yahir ",
+                            "posicion":"WR",
+                            "edad":24,
+                            "peso":80,
+                            "estatura":1.77,
+                            "equipo":"Linces UVM"
+                        },
+                        {
+                            "numero":"87",
+                            "nombre":"Salgado Gomez Andrés",
+                            "posicion":"WR",
+                            "edad":23,
+                            "peso":83,
+                            "estatura":1.87,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"88",
+                            "nombre":"Salazar Avila Heriberto",
+                            "posicion":"WR",
+                            "edad":25,
+                            "peso":95,
+                            "estatura":1.87,
+                            "equipo":"Pumas UNAM"
+                        },
+                        {
+                            "numero":"89",
+                            "nombre":"González Treviño Alejo",
+                            "posicion":"WR",
+                            "edad":23,
+                            "peso":80,
+                            "estatura":1.85,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"91",
+                            "nombre":"Carrete Landeros Daniel",
+                            "posicion":"EXTERNO",
+                            "edad":24,
+                            "peso":100,
+                            "estatura":1.91,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "numero":"93",
+                            "nombre":"González Chapa Octavio",
+                            "posicion":"DL",
+                            "edad":22,
+                            "peso":113,
+                            "estatura":1.93,
+                            "equipo":"Auténticos Tigres UANL"
+                        },
+                        {
+                            "extra":"HC",
+                            "nombre":"Raul Rivera"
+                        },
+                        {
+                            "extra":"CO",
+                            "nombre":"Carlos Barosio"
+                        },
+                        {
+                            "extra":"CD",
+                            "nombre":"Roberto Ropdriguez"
+                        }
+                    ],
+                    "roster_img": "img/ligas/roster_mexico.jpg"
+                },{
+                    "name": "CANADA",
+                    "place": "4",
+                    "flag": "img/flags/mundial-2015/canada.png",
+                    "bg": "img/ligas/canada_bg.png",
+                    "id": 3,
+                    "out": true
+                }]
+            },{
+                "name": "Grupo B",
+                "id": 1,
+                "elements": [{
+                    "name": "FRANCIA",
+                    "place": "1",
+                    "flag": "img/flags/mundial-2015/francia.png",
+                    "bg": "img/ligas/francia_bg.png"
+                },{
+                    "name": "COREA DEL SUR",
+                    "place": "2",
+                    "flag": "img/flags/mundial-2015/corea.png"
+                },{
+                    "name": "AUSTRALIA",
+                    "place": "3",
+                    "flag": "img/flags/mundial-2015/australia.png",
+                    "bg": "img/ligas/australia_bg.png"
+                },{
+                    "name": "BRASIL",
+                    "place": "4",
+                    "flag": "img/flags/mundial-2015/brasil.png"
+                }]
+            }],
+            "matches": [
+                {
+                    "id":0,
+                    "place":"Tom Benson, Ohio",
+                    "date": "Julio 9",
+                    "hour": "12:00 hrs",
+                    "time": "2015-07-09 12:00",
+                    "done": false,
+                    "team":[{
+                        "name": "Australia",
+                        "flag": "img/flags/mundial-2015/australia.png",
+                        "score": 0
+                    },{
+                        "name": "Korea del Sur",
+                        "flag": "img/flags/mundial-2015/corea.png",
+                        "score": 0
+                    }]
+                },
+                {
+                    "id":1,
+                    "place":"Tom Benson, Ohio",
+                    "date": "Julio 9",
+                    "hour": "15:30 hrs",
+                    "time": "2015-07-09 15:30",
+                    "done": false,
+                    "team":[{
+                        "name": "Francia",
+                        "flag": "img/flags/mundial-2015/francia.png",
+                        "score":0
+                    },{
+                        "name": "Brasil",
+                        "flag": "img/flags/mundial-2015/brasil.png",
+                        "score":0
+                    }]
+                },
+                {
+                    "id":2,
+                    "place":"Tom Benson, Ohio",
+                    "date": "Julio 9",
+                    "hour": "19:00 hrs",
+                    "time": "2015-07-09 19:00",
+                    "done": false,
+                    "team":[{
+                        "name": "USA",
+                        "flag": "img/flags/mundial-2015/usa.png",
+                        "score":0
+                    },{
+                        "name": "México",
+                        "flag": "img/flags/mundial-2015/mexico.png",
+                        "score":0
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "ONEFA",
+            "preview": "img/ligas/onefa.jpg",
+            "color": "#cfcfcf",
+            "info": "<p class='text-center'>Próximamente</p>",
+            "sections": [{
+                "icon": "ion-ios-paper-outline",
+                "name": "Info"
+            },{
+                "icon": "ion-ios-keypad-outline",
+                "name": "Equipos"
+            }],
+            "players": [{
+                "id": 1,
+                "name": "Aguilas Blancas",
+                "uni": "IPN",
+                "helmet": "img/onefa/aguilas-blancas-ipn.png",
+                "group": "green"
+            },{
+                "id": 2,
+                "name": "Aguilas",
+                "uni": "UACH",
+                "helmet": "img/onefa/aguilas-UACH.png",
+                "group": "green"
+            },{
+                "id": 3,
+                "name": "Auténticos Tigres",
+                "uni": "UANL",
+                "helmet": "img/onefa/autenticos-tigres-UANL.png",
+                "group": "green"
+            },{
+                "id": 4,
+                "name": "Burros Blancos",
+                "uni": "IPN",
+                "helmet": "img/onefa/burros-blancos-IPN.png",
+                "group": "green"
+            },{
+                "id": 5,
+                "name": "Linces",
+                "uni": "UVM",
+                "helmet": "img/onefa/linces-UVM.png",
+                "group": "green"
+            },{
+                "id": 6,
+                "name": "Pumas",
+                "uni": "UNAM",
+                "helmet": "img/onefa/pumas-UNAM.png",
+                "group": "green"
+            },{
+                "id": 5,
+                "name": "Centinelas",
+                "uni": "CGP",
+                "helmet": "img/onefa/centinelas-CGP.jpg",
+                "group": "white"
+            },{
+                "id": 7,
+                "name": "Frailes",
+                "uni": "UT",
+                "helmet": "img/onefa/frailes-UT.png",
+                "group": "white"
+            },{
+                "id": 8,
+                "name": "Lobos",
+                "uni": "UAdeC",
+                "helmet": "img/onefa/lobos-UAdeC.png",
+                "group": "white"
+            },{
+                "id": 9,
+                "name": "Pumas",
+                "uni": "ACATLAN",
+                "helmet": "img/onefa/pumas-ACATLAN.png",
+                "group": "white"
+            },{
+                "id": 10,
+                "name": "Potros salvajes",
+                "uni": "UAEM",
+                "helmet": "img/onefa/potros-salvajes-UAEM.png",
+                "group": "white"
+            },{
+                "id": 11,
+                "name": "Leones",
+                "uni": "CANCUN",
+                "helmet": "img/onefa/leones-CANCUN.png",
+                "group": "white"
+            },{
+                "id": 12,
+                "name": "Correcaminos",
+                "uni": "UAT REYNOSA",
+                "helmet": "img/onefa/correcaminos-UAT-REYNOSA.png",
+                "group": "red"
+            },{
+                "id": 13,
+                "name": "Correcaminos",
+                "uni": "UAT VICTORIA",
+                "helmet": "img/onefa/correcaminos-UAT-VICTORIA.png",
+                "group": "red"
+            },{
+                "id": 14,
+                "name": "Halcones",
+                "uni": "UV",
+                "helmet": "img/onefa/halcones-UV.png",
+                "group": "red"
+            },{
+                "id": 15,
+                "name": "Zorros",
+                "uni": "ITQ",
+                "helmet": "img/onefa/zorros-ITQ.png",
+                "group": "red"
+            },{
+                "id": 16,
+                "name": "Tecos",
+                "uni": "UAG",
+                "helmet": "img/onefa/tecos-UAG.png",
+                "group": "red"
+            },{
+                "id": 17,
+                "name": "Toros salvajes",
+                "uni": "UACh",
+                "helmet": "img/onefa/toros-salvajes-UACh.png",
+                "group": "red"
+            },{
+                "id": 18,
+                "name": "Lobos",
+                "uni": "BUAP",
+                "helmet": "img/onefa/lobos-BUAP.png",
+                "group": "red"
+            }]
+        },
+        {
+            "id": 2,
+            "name": "Liga Premier",
+            "preview": "img/ligas/mundial-2015.jpg",
+            "color": "#e75656",
+            "info": "<p class='text-center'>Próximamente</p>",
+            "sections": [{
+                "icon": "ion-ios-paper-outline",
+                "name": "Info"
+            }],
+            "players": [{
+
+            }]
+        }
+    ]
+}
