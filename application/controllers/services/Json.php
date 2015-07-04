@@ -65,10 +65,10 @@ class Json extends CI_Controller {
         // Como ya es tarde jalo el texto plano
         $json_string = file_get_contents(APPPATH.'/files/fake_json.json');
 
+        header('Access-Control-Allow-Origin: *');
+        header('Access-Control-Max-Age: 3628800');
         if( isset( $_GET['callback'] ) ){
             header('Content-Type: text/javascript; charset=utf8');
-            header('Access-Control-Allow-Origin: *');
-            header('Access-Control-Max-Age: 3628800');
             //header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
             header('Access-Control-Allow-Methods: GET');
             $callback = $_GET['callback'];
