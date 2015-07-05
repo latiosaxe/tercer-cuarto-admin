@@ -22,7 +22,7 @@
 <body>
 <div class="header">
     <a href="<?php echo base_url('admin'); ?>"><span class="glyphicon glyphicon-home"></span> Inicio</a>
-    <a href="<?php echo base_url('admin/logout'); ?>">Salir</a>
+    <a class="logout" href="<?php echo base_url('admin/logout'); ?>">Salir</a>
 </div>
 <?php echo $html; ?>
 <footer></footer>

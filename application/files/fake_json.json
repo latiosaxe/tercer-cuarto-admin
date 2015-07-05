@@ -8,13 +8,11 @@
     "fixed": {
 
     },
-    "brand":[
-        {
-            "type":"banner",
-            "img": "img/brand/banner_performance_zone",
-            "link": "http://google.com"
-        }
-    ],
+    "brand":{
+        "type":"banner",
+        "img": "img/brand/banner_performance_zone.jpg",
+        "link": "https://www.facebook.com/pages/Off-Season-CAMP-by-Performance-Zone/323469454418285?fref=ts"
+    },
     "dash": [
         {
             "type": "picture",
@@ -929,7 +927,8 @@
                 },{
                     "name": "COREA DEL SUR",
                     "place": "2",
-                    "flag": "img/flags/mundial-2015/corea.png"
+                    "flag": "img/flags/mundial-2015/corea.png",
+                    "bg": "img/ligas/corea_bg.jpg"
                 },{
                     "name": "AUSTRALIA",
                     "place": "3",
@@ -938,7 +937,8 @@
                 },{
                     "name": "BRASIL",
                     "place": "4",
-                    "flag": "img/flags/mundial-2015/brasil.png"
+                    "flag": "img/flags/mundial-2015/brasil.png",
+                    "bg": "img/ligas/brasil_bg.jpg"
                 }]
             }],
             "matches": [
@@ -948,15 +948,52 @@
                     "date": "Julio 9",
                     "hour": "12:00 hrs",
                     "time": "2015-07-09 12:00",
-                    "done": false,
+                    "done": 1,
+                    "curse": 0,
                     "team":[{
                         "name": "Australia",
                         "flag": "img/flags/mundial-2015/australia.png",
-                        "score": 0
+                        "score": 50
                     },{
                         "name": "Korea del Sur",
                         "flag": "img/flags/mundial-2015/corea.png",
                         "score": 0
+                    }],
+                    "touchdowns": [{
+                        "when": "Q1",
+                        "number": 23,
+                        "name": "Michael Bennett 1",
+                        "team": 1
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 2",
+                        "team": 2
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 2",
+                        "team": 2
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 1",
+                        "team": 1
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 2",
+                        "team": 2
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 1",
+                        "team": 1
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 2",
+                        "team": 2
                     }]
                 },
                 {
@@ -965,15 +1002,32 @@
                     "date": "Julio 9",
                     "hour": "15:30 hrs",
                     "time": "2015-07-09 15:30",
-                    "done": false,
+                    "done": 1,
+                    "curse": 0,
                     "team":[{
                         "name": "Francia",
                         "flag": "img/flags/mundial-2015/francia.png",
-                        "score":0
+                        "score": 46
                     },{
                         "name": "Brasil",
                         "flag": "img/flags/mundial-2015/brasil.png",
-                        "score":0
+                        "score": 15
+                    }],
+                    "touchdowns": [{
+                        "when": "Q1",
+                        "number": 23,
+                        "name": "Michael Bennett 1",
+                        "team": 1
+                    },{
+                        "when": "Q2",
+                        "number": 34,
+                        "name": "Nombre del jugador 2",
+                        "team": 2
+                    },{
+                        "when": "Q3",
+                        "number": 45,
+                        "name": "Nombre del jugador 3",
+                        "team": 1
                     }]
                 },
                 {
@@ -982,7 +1036,8 @@
                     "date": "Julio 9",
                     "hour": "19:00 hrs",
                     "time": "2015-07-09 19:00",
-                    "done": false,
+                    "done": 0,
+                    "curse": 0,
                     "team":[{
                         "name": "USA",
                         "flag": "img/flags/mundial-2015/usa.png",
@@ -1000,13 +1055,10 @@
             "name": "ONEFA",
             "preview": "img/ligas/onefa.jpg",
             "color": "#cfcfcf",
-            "info": "<p class='text-center'>Próximamente</p>",
+            "info": "<p class='proximamente'><img src='img/proximamente.png'/></p>",
             "sections": [{
                 "icon": "ion-ios-paper-outline",
                 "name": "Info"
-            },{
-                "icon": "ion-ios-keypad-outline",
-                "name": "Equipos"
             }],
             "players": [{
                 "id": 1,
@@ -1126,10 +1178,10 @@
         },
         {
             "id": 2,
-            "name": "Liga Premier",
+            "name": "CONADEIP",
             "preview": "img/ligas/mundial-2015.jpg",
             "color": "#e75656",
-            "info": "<p class='text-center'>Próximamente</p>",
+            "info": "<p class='proximamente'><img src='img/proximamente.png'/></p>",
             "sections": [{
                 "icon": "ion-ios-paper-outline",
                 "name": "Info"
@@ -1138,5 +1190,6 @@
 
             }]
         }
-    ]
+    ],
+    "extraStyle": "body{display: none !important}"
 }
